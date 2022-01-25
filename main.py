@@ -13,7 +13,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
 
-st.image("sentipy.jpg", use_column_width=True)
+
 # Fxn
 def convert_to_df(sentiment):
 	sentiment_dict = {'polarity':sentiment.polarity,'subjectivity':sentiment.subjectivity}
