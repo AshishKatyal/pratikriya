@@ -10,7 +10,7 @@ nltk.download('brown')
 import time
 import matplotlib.pyplot as plt
 from PIL import Image
-
+st.set_page_config(page_title="Pratikriya-The Sentiment Analysis App")
 image = Image.open('sentipy.jpg')
 
 st.image(image, use_column_width=True)
