@@ -126,10 +126,10 @@ def main():
 				else :
 					st.markdown("Neutral 😐 ")
 
-				with st.expander("Hindi Translation"):
-					senti = TextBlob(raw_text)
-					st.text(senti.translate(to="hi"))
-					st.success('**Pratikriya** का उपयोग करने के लिए धन्यवाद')
+				#with st.expander("Hindi Translation"):
+					#senti = TextBlob(raw_text)
+					#st.text(senti.translate(to="hi"))
+					#st.success('**Pratikriya** का उपयोग करने के लिए धन्यवाद')
 					#st.info("""
 					#The compound score is the sum of positive, negative & neutral scores which is then normalized between -1(most extreme negative) and +1 (most extreme positive). The more Compound score closer to +1, the higher the positivity of the text.""")
 
